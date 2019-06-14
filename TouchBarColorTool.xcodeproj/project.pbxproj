@@ -13,6 +13,7 @@
 		5055E46822B35065008E4921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5055E46622B35065008E4921 /* Main.storyboard */; };
 		5055E47422B35065008E4921 /* TouchBarColorToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055E47322B35065008E4921 /* TouchBarColorToolTests.swift */; };
 		5055E47F22B35065008E4921 /* TouchBarColorToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055E47E22B35065008E4921 /* TouchBarColorToolUITests.swift */; };
+		5072985E22B3606600174C0E /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5072985D22B3606600174C0E /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5055E47A22B35065008E4921 /* TouchBarColorToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarColorToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5055E47E22B35065008E4921 /* TouchBarColorToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarColorToolUITests.swift; sourceTree = "<group>"; };
 		5055E48022B35065008E4921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5072985D22B3606600174C0E /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				5055E46622B35065008E4921 /* Main.storyboard */,
 				5055E46922B35065008E4921 /* Info.plist */,
 				5055E46A22B35065008E4921 /* TouchBarColorTool.entitlements */,
+				5072985D22B3606600174C0E /* WindowController.swift */,
 			);
 			path = TouchBarColorTool;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5055E46322B35063008E4921 /* ViewController.swift in Sources */,
+				5072985E22B3606600174C0E /* WindowController.swift in Sources */,
 				5055E46122B35063008E4921 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
