@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5055E46122B35063008E4921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055E46022B35063008E4921 /* AppDelegate.swift */; };
+		5055E46322B35063008E4921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055E46222B35063008E4921 /* ViewController.swift */; };
+		5055E46522B35065008E4921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5055E46422B35065008E4921 /* Assets.xcassets */; };
+		5055E46822B35065008E4921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5055E46622B35065008E4921 /* Main.storyboard */; };
+		5055E47422B35065008E4921 /* TouchBarColorToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055E47322B35065008E4921 /* TouchBarColorToolTests.swift */; };
+		5055E47F22B35065008E4921 /* TouchBarColorToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055E47E22B35065008E4921 /* TouchBarColorToolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5055E47022B35065008E4921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5055E45522B35062008E4921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5055E45C22B35062008E4921;
+			remoteInfo = TouchBarColorTool;
+		};
+		5055E47B22B35065008E4921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5055E45522B35062008E4921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5055E45C22B35062008E4921;
+			remoteInfo = TouchBarColorTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5055E45D22B35063008E4921 /* TouchBarColorTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarColorTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5055E46022B35063008E4921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5055E46222B35063008E4921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5055E46422B35065008E4921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5055E46722B35065008E4921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5055E46922B35065008E4921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5055E46A22B35065008E4921 /* TouchBarColorTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchBarColorTool.entitlements; sourceTree = "<group>"; };
+		5055E46F22B35065008E4921 /* TouchBarColorToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarColorToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5055E47322B35065008E4921 /* TouchBarColorToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarColorToolTests.swift; sourceTree = "<group>"; };
+		5055E47522B35065008E4921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5055E47A22B35065008E4921 /* TouchBarColorToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarColorToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5055E47E22B35065008E4921 /* TouchBarColorToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarColorToolUITests.swift; sourceTree = "<group>"; };
+		5055E48022B35065008E4921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5055E45A22B35062008E4921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5055E46C22B35065008E4921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5055E47722B35065008E4921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5055E45422B35062008E4921 = {
+			isa = PBXGroup;
+			children = (
+				5055E45F22B35063008E4921 /* TouchBarColorTool */,
+				5055E47222B35065008E4921 /* TouchBarColorToolTests */,
+				5055E47D22B35065008E4921 /* TouchBarColorToolUITests */,
+				5055E45E22B35063008E4921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5055E45E22B35063008E4921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5055E45D22B35063008E4921 /* TouchBarColorTool.app */,
+				5055E46F22B35065008E4921 /* TouchBarColorToolTests.xctest */,
+				5055E47A22B35065008E4921 /* TouchBarColorToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5055E45F22B35063008E4921 /* TouchBarColorTool */ = {
+			isa = PBXGroup;
+			children = (
+				5055E46022B35063008E4921 /* AppDelegate.swift */,
+				5055E46222B35063008E4921 /* ViewController.swift */,
+				5055E46422B35065008E4921 /* Assets.xcassets */,
+				5055E46622B35065008E4921 /* Main.storyboard */,
+				5055E46922B35065008E4921 /* Info.plist */,
+				5055E46A22B35065008E4921 /* TouchBarColorTool.entitlements */,
+			);
+			path = TouchBarColorTool;
+			sourceTree = "<group>";
+		};
+		5055E47222B35065008E4921 /* TouchBarColorToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				5055E47322B35065008E4921 /* TouchBarColorToolTests.swift */,
+				5055E47522B35065008E4921 /* Info.plist */,
+			);
+			path = TouchBarColorToolTests;
+			sourceTree = "<group>";
+		};
+		5055E47D22B35065008E4921 /* TouchBarColorToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5055E47E22B35065008E4921 /* TouchBarColorToolUITests.swift */,
+				5055E48022B35065008E4921 /* Info.plist */,
+			);
+			path = TouchBarColorToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5055E45C22B35062008E4921 /* TouchBarColorTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5055E48322B35065008E4921 /* Build configuration list for PBXNativeTarget "TouchBarColorTool" */;
+			buildPhases = (
+				5055E45922B35062008E4921 /* Sources */,
+				5055E45A22B35062008E4921 /* Frameworks */,
+				5055E45B22B35062008E4921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchBarColorTool;
+			productName = TouchBarColorTool;
+			productReference = 5055E45D22B35063008E4921 /* TouchBarColorTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5055E46E22B35065008E4921 /* TouchBarColorToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5055E48622B35065008E4921 /* Build configuration list for PBXNativeTarget "TouchBarColorToolTests" */;
+			buildPhases = (
+				5055E46B22B35065008E4921 /* Sources */,
+				5055E46C22B35065008E4921 /* Frameworks */,
+				5055E46D22B35065008E4921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5055E47122B35065008E4921 /* PBXTargetDependency */,
+			);
+			name = TouchBarColorToolTests;
+			productName = TouchBarColorToolTests;
+			productReference = 5055E46F22B35065008E4921 /* TouchBarColorToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5055E47922B35065008E4921 /* TouchBarColorToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5055E48922B35065008E4921 /* Build configuration list for PBXNativeTarget "TouchBarColorToolUITests" */;
+			buildPhases = (
+				5055E47622B35065008E4921 /* Sources */,
+				5055E47722B35065008E4921 /* Frameworks */,
+				5055E47822B35065008E4921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5055E47C22B35065008E4921 /* PBXTargetDependency */,
+			);
+			name = TouchBarColorToolUITests;
+			productName = TouchBarColorToolUITests;
+			productReference = 5055E47A22B35065008E4921 /* TouchBarColorToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5055E45522B35062008E4921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Funakoshi Minto";
+				TargetAttributes = {
+					5055E45C22B35062008E4921 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5055E46E22B35065008E4921 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5055E45C22B35062008E4921;
+					};
+					5055E47922B35065008E4921 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5055E45C22B35062008E4921;
+					};
+				};
+			};
+			buildConfigurationList = 5055E45822B35062008E4921 /* Build configuration list for PBXProject "TouchBarColorTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5055E45422B35062008E4921;
+			productRefGroup = 5055E45E22B35063008E4921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5055E45C22B35062008E4921 /* TouchBarColorTool */,
+				5055E46E22B35065008E4921 /* TouchBarColorToolTests */,
+				5055E47922B35065008E4921 /* TouchBarColorToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5055E45B22B35062008E4921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5055E46522B35065008E4921 /* Assets.xcassets in Resources */,
+				5055E46822B35065008E4921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5055E46D22B35065008E4921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5055E47822B35065008E4921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5055E45922B35062008E4921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5055E46322B35063008E4921 /* ViewController.swift in Sources */,
+				5055E46122B35063008E4921 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5055E46B22B35065008E4921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5055E47422B35065008E4921 /* TouchBarColorToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5055E47622B35065008E4921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5055E47F22B35065008E4921 /* TouchBarColorToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5055E47122B35065008E4921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5055E45C22B35062008E4921 /* TouchBarColorTool */;
+			targetProxy = 5055E47022B35065008E4921 /* PBXContainerItemProxy */;
+		};
+		5055E47C22B35065008E4921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5055E45C22B35062008E4921 /* TouchBarColorTool */;
+			targetProxy = 5055E47B22B35065008E4921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5055E46622B35065008E4921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5055E46722B35065008E4921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5055E48122B35065008E4921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5055E48222B35065008E4921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5055E48422B35065008E4921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouchBarColorTool/TouchBarColorTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarColorTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.TouchBarColorTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5055E48522B35065008E4921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouchBarColorTool/TouchBarColorTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarColorTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.TouchBarColorTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		5055E48722B35065008E4921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarColorToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.TouchBarColorToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBarColorTool.app/Contents/MacOS/TouchBarColorTool";
+			};
+			name = Debug;
+		};
+		5055E48822B35065008E4921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarColorToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.TouchBarColorToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBarColorTool.app/Contents/MacOS/TouchBarColorTool";
+			};
+			name = Release;
+		};
+		5055E48A22B35065008E4921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarColorToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.TouchBarColorToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = TouchBarColorTool;
+			};
+			name = Debug;
+		};
+		5055E48B22B35065008E4921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchBarColorToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ie.TouchBarColorToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = TouchBarColorTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5055E45822B35062008E4921 /* Build configuration list for PBXProject "TouchBarColorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5055E48122B35065008E4921 /* Debug */,
+				5055E48222B35065008E4921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5055E48322B35065008E4921 /* Build configuration list for PBXNativeTarget "TouchBarColorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5055E48422B35065008E4921 /* Debug */,
+				5055E48522B35065008E4921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5055E48622B35065008E4921 /* Build configuration list for PBXNativeTarget "TouchBarColorToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5055E48722B35065008E4921 /* Debug */,
+				5055E48822B35065008E4921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5055E48922B35065008E4921 /* Build configuration list for PBXNativeTarget "TouchBarColorToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5055E48A22B35065008E4921 /* Debug */,
+				5055E48B22B35065008E4921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5055E45522B35062008E4921 /* Project object */;
+}
